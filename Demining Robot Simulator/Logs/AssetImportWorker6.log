@@ -1,0 +1,670 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'uk' Physical Memory: 16088 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/probn/UnityProjects/DeminingRobotSimulator/Demining Robot Simulator
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+62624
+Successfully changed project path to: C:/Users/probn/UnityProjects/DeminingRobotSimulator/Demining Robot Simulator
+C:/Users/probn/UnityProjects/DeminingRobotSimulator/Demining Robot Simulator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4268] Host "[IP] 26.148.150.195 [Port] 0 [Flags] 2 [Guid] 2332716188 [EditorId] 2332716188 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4268] Host "[IP] 26.148.150.195 [Port] 0 [Flags] 2 [Guid] 2332716188 [EditorId] 2332716188 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 70.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/probn/UnityProjects/DeminingRobotSimulator/Demining Robot Simulator/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002329 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 65.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.423 seconds
+Domain Reload Profiling:
+	ReloadAssembly (424ms)
+		BeginReloadAssembly (39ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (298ms)
+			LoadAssemblies (39ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (64ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (188ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (59ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003445 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\probn\UnityProjects\DeminingRobotSimulator\Demining Robot Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\probn\UnityProjects\DeminingRobotSimulator\Demining Robot Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 63.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.891 seconds
+Domain Reload Profiling:
+	ReloadAssembly (892ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (116ms)
+		EndReloadAssembly (636ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5006 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (0.7 MB). Loaded Objects now: 5454.
+Memory consumption went from 198.2 MB to 197.5 MB.
+Total: 2.784300 ms (FindLiveObjects: 0.244400 ms CreateObjectMapping: 0.146200 ms MarkObjects: 2.170700 ms  DeleteObjects: 0.222200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1208344.176953 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-progress-light.png
+  artifactKey: Guid(98eea3a123f8b4c468b7e43d0ff3c232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-progress-light.png using Guid(98eea3a123f8b4c468b7e43d0ff3c232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83dd170689d9fecf21d9f74222cf6b02') in 0.058583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.078400 seconds.
+  path: Assets/TerrainInfo/Grass.terrainlayer
+  artifactKey: Guid(d56428a9ede333840a43aef561042e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainInfo/Grass.terrainlayer using Guid(d56428a9ede333840a43aef561042e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d665278cbc3cc191b18cc31264611d3') in 0.035328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 217.428119 seconds.
+  path: Assets/TerrainInfo/New Terrain.asset
+  artifactKey: Guid(3730ebed285add9498f3e7324e624ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainInfo/New Terrain.asset using Guid(3730ebed285add9498f3e7324e624ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46b48f3a8d4d2deb754633e9aad7d3e') in 0.025584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.696981 seconds.
+  path: Assets/Tree_Packs
+  artifactKey: Guid(3ddcbf5beefd7a3478412a00f1cb4752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Packs using Guid(3ddcbf5beefd7a3478412a00f1cb4752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca8d51327a3dfdc79d93cb63898247c') in 0.009238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.384655 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack
+  artifactKey: Guid(4ff405d588e9c2f4e90e6286fb9ffff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack using Guid(4ff405d588e9c2f4e90e6286fb9ffff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1683b1f1d92aa9ec2d5eb295f322836e') in 0.009632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.454932 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Prefabs
+  artifactKey: Guid(104ba43d6e95fd44db012a78eabe3748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Prefabs using Guid(104ba43d6e95fd44db012a78eabe3748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82f30b74771e239957a2d84a5762649') in 0.009040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054423 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Prefabs/URP_Tree_1.prefab
+  artifactKey: Guid(022485ff60e4a26418217d8ab778a812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Prefabs/URP_Tree_1.prefab using Guid(022485ff60e4a26418217d8ab778a812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5971445bcfa808b98df7c4bcd24a217a') in 1.767598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Prefabs/URP_Tree_3.prefab
+  artifactKey: Guid(af90fe2f0f252bf4b8c2ab79bcd41edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Prefabs/URP_Tree_3.prefab using Guid(af90fe2f0f252bf4b8c2ab79bcd41edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a25cbd78e79854a95e71a21a1611e0') in 0.020994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.917783 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_1/URP_Tree_1_LOD_0.fbx
+  artifactKey: Guid(419b474d3d31ef54e9c101d6e7213aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_1/URP_Tree_1_LOD_0.fbx using Guid(419b474d3d31ef54e9c101d6e7213aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939774a942f197abbd9f7fa2b42740a9') in 0.177918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_1/URP_Tree_1_LOD_2.fbx
+  artifactKey: Guid(0a9ad2b5edd0c6d49bc3aebe133e3850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_1/URP_Tree_1_LOD_2.fbx using Guid(0a9ad2b5edd0c6d49bc3aebe133e3850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d60c58a0f78bf601a6e64050cb5b6e') in 0.021268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_2/URP_Tree_2_LOD_1.fbx
+  artifactKey: Guid(423b693f7a3fb7b47827a61a7ad4d009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_2/URP_Tree_2_LOD_1.fbx using Guid(423b693f7a3fb7b47827a61a7ad4d009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74c4a908d1227ea3b6f0d175991c088') in 0.023369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.323534 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_2/URP_Tree_2_LOD_2.fbx
+  artifactKey: Guid(61f51b872cc42644c84858116165c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_2/URP_Tree_2_LOD_2.fbx using Guid(61f51b872cc42644c84858116165c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcdabea47d3a7def946c120de29c9d5') in 0.018854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062464 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_0.fbx
+  artifactKey: Guid(8d5f15814e2635b4caac8162f5b244b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_0.fbx using Guid(8d5f15814e2635b4caac8162f5b244b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355071d9a2f15bda577a03010f4cff3f') in 0.019923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039447 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_1.fbx
+  artifactKey: Guid(fc71d47d7a4d9574bb7aaccbb2585322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_1.fbx using Guid(fc71d47d7a4d9574bb7aaccbb2585322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbc4d3525b8a84fdac204134b6c6514') in 0.026759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056568 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_3.fbx
+  artifactKey: Guid(23f8413d694261647b08c546eb4953af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_3.fbx using Guid(23f8413d694261647b08c546eb4953af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f46a67f82f70665fe755d7134d0c11') in 0.015730 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003359 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\probn\UnityProjects\DeminingRobotSimulator\Demining Robot Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\probn\UnityProjects\DeminingRobotSimulator\Demining Robot Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.896 seconds
+Domain Reload Profiling:
+	ReloadAssembly (897ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (717ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (356ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4897 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5524.
+Memory consumption went from 197.9 MB to 197.2 MB.
+Total: 3.309800 ms (FindLiveObjects: 0.312400 ms CreateObjectMapping: 0.173900 ms MarkObjects: 2.495100 ms  DeleteObjects: 0.327600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003616 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\probn\UnityProjects\DeminingRobotSimulator\Demining Robot Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\probn\UnityProjects\DeminingRobotSimulator\Demining Robot Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.893 seconds
+Domain Reload Profiling:
+	ReloadAssembly (894ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (735ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (369ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4897 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5527.
+Memory consumption went from 197.9 MB to 197.2 MB.
+Total: 3.441300 ms (FindLiveObjects: 0.328700 ms CreateObjectMapping: 0.174000 ms MarkObjects: 2.681900 ms  DeleteObjects: 0.255600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 337.120348 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_0.fbx
+  artifactKey: Guid(8d5f15814e2635b4caac8162f5b244b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_0.fbx using Guid(8d5f15814e2635b4caac8162f5b244b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0475799a052a9bd3a072cb1a925ae1') in 0.164849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.782937 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_1.fbx
+  artifactKey: Guid(fc71d47d7a4d9574bb7aaccbb2585322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_1.fbx using Guid(fc71d47d7a4d9574bb7aaccbb2585322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9927ae4e515dd2b69c9a155f8d58f34') in 0.017904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.835136 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_2.fbx
+  artifactKey: Guid(512754d39f33a364db254fe00aeb0868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_2.fbx using Guid(512754d39f33a364db254fe00aeb0868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e566714c3f2d54957ded76120cde32') in 0.025796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.537785 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_3.fbx
+  artifactKey: Guid(23f8413d694261647b08c546eb4953af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_3.fbx using Guid(23f8413d694261647b08c546eb4953af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68316a16d74396b3e4a86e04a180cb4c') in 0.031091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.072773 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_3.fbx
+  artifactKey: Guid(23f8413d694261647b08c546eb4953af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_3.fbx using Guid(23f8413d694261647b08c546eb4953af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e94727b8a60b664a088d9885ab8aaf') in 0.030083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_1.fbx
+  artifactKey: Guid(fc71d47d7a4d9574bb7aaccbb2585322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_1.fbx using Guid(fc71d47d7a4d9574bb7aaccbb2585322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda84a1bc7f3d44b941e6586c81e0007') in 0.026715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_2.fbx
+  artifactKey: Guid(512754d39f33a364db254fe00aeb0868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/URP_Tree_3_LOD_2.fbx using Guid(512754d39f33a364db254fe00aeb0868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfab04b53a35abdd0117ebd5e15ca08f') in 0.027786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.404867 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/Materials
+  artifactKey: Guid(4f1284d4c48dc6b4c95d6f6cf9b28be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/Materials using Guid(4f1284d4c48dc6b4c95d6f6cf9b28be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623368c6b4e578b6663a635aef304f55') in 0.008086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066871 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/Materials/Leaf.mat
+  artifactKey: Guid(6a3720bc3012dca4fbea486b3c6854dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Models/URP_Tree_3/Materials/Leaf.mat using Guid(6a3720bc3012dca4fbea486b3c6854dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a2d5e9339cdbf9038af8fd97292f29') in 0.027884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.691908 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Prefabs/URP_Tree_3.prefab
+  artifactKey: Guid(af90fe2f0f252bf4b8c2ab79bcd41edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Prefabs/URP_Tree_3.prefab using Guid(af90fe2f0f252bf4b8c2ab79bcd41edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918d5ce640bba43141dbca58f96b5691') in 0.013452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.159492 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Prefabs/URP_Tree_2.prefab
+  artifactKey: Guid(40cc2dd6b744b344a9a4ea56076c47fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Prefabs/URP_Tree_2.prefab using Guid(40cc2dd6b744b344a9a4ea56076c47fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd1e573fe33f44764af9a495a3a95be') in 0.020473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007461 seconds.
+  path: Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Prefabs/URP_Tree_1.prefab
+  artifactKey: Guid(022485ff60e4a26418217d8ab778a812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Tree_Packs/URP_Tree_Pack/Prefabs/URP_Tree_1.prefab using Guid(022485ff60e4a26418217d8ab778a812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589485c5dcd021ed28c5ba8dff34715e') in 0.032350 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003640 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\probn\UnityProjects\DeminingRobotSimulator\Demining Robot Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\probn\UnityProjects\DeminingRobotSimulator\Demining Robot Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.835 seconds
+Domain Reload Profiling:
+	ReloadAssembly (836ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (680ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (327ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4897 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5604.
+Memory consumption went from 198.2 MB to 197.5 MB.
+Total: 3.276800 ms (FindLiveObjects: 0.349000 ms CreateObjectMapping: 0.269200 ms MarkObjects: 2.397700 ms  DeleteObjects: 0.260100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003847 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\probn\UnityProjects\DeminingRobotSimulator\Demining Robot Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\probn\UnityProjects\DeminingRobotSimulator\Demining Robot Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.808 seconds
+Domain Reload Profiling:
+	ReloadAssembly (808ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (660ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4897 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5607.
+Memory consumption went from 198.1 MB to 197.4 MB.
+Total: 3.489900 ms (FindLiveObjects: 0.299300 ms CreateObjectMapping: 0.174200 ms MarkObjects: 2.574500 ms  DeleteObjects: 0.441100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005034 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\probn\UnityProjects\DeminingRobotSimulator\Demining Robot Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\probn\UnityProjects\DeminingRobotSimulator\Demining Robot Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.853 seconds
+Domain Reload Profiling:
+	ReloadAssembly (853ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (705ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4897 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5610.
+Memory consumption went from 197.9 MB to 197.2 MB.
+Total: 3.070900 ms (FindLiveObjects: 0.287800 ms CreateObjectMapping: 0.157200 ms MarkObjects: 2.374400 ms  DeleteObjects: 0.250600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003887 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\probn\UnityProjects\DeminingRobotSimulator\Demining Robot Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\probn\UnityProjects\DeminingRobotSimulator\Demining Robot Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.732 seconds
+Domain Reload Profiling:
+	ReloadAssembly (732ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (588ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5057 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 5782.
+Memory consumption went from 203.9 MB to 203.1 MB.
+Total: 2.979800 ms (FindLiveObjects: 0.283600 ms CreateObjectMapping: 0.159800 ms MarkObjects: 2.292500 ms  DeleteObjects: 0.243200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
